@@ -181,3 +181,10 @@ end)
 Section:NewButton("grand", "1 of the pumpkinhats", function()
     game.Players.LocalPlayer.Character.Hat.Mesh.MeshId="rbxassetid://36869418"game.Players.LocalPlayer.Character.Hat.Mesh.TextureId="rbxassetid://36869406"game.Players.LocalPlayer.Character.Hat.Mesh.Offset=Vector3.new(-0.0,0.0,0.0)game.Players.LocalPlayer.Character.Hat.Mesh.Scale=Vector3.new(1,1.1,1.1)
 end)
+
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Info/Credits")
+Section:NewButton("Script By:", "Scripto#0001", function()
+        	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "By:", Text = "Scripto#0001"})
+end)
+
