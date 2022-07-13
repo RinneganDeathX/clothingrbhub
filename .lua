@@ -184,7 +184,7 @@ end)
 
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Info/Credits")
-Section:NewButton("Script By:", "Scripto#0001", function()
-        	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "By:", Text = "Scripto#0001"})
+Section:NewButton("Script By:", "Krnl#0001", function()
+        	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "By:", Text = "Krnl#0001"})
 end)
 
